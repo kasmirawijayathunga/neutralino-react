@@ -39,3 +39,4 @@ yarn-error.log*
 
 .github
 .tmp
+package-lock.json
