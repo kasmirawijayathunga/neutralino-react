@@ -1,7 +1,8 @@
 {
   "name": "create-react-neutralino-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Neutralinojs app with reactjs",
+  "bin":"./bin/cli.js",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --kill-others \"cross-env BROWSER=none npm run dev-react\" \"npm run dev-neu\"",
