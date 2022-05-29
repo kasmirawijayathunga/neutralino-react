@@ -1,6 +1,6 @@
 {
   "name": "create-react-neutralino-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Neutralinojs app with reactjs",
   "bin":"./bin/cli.js",
   "main": "index.js",
@@ -46,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasmirawijayathunga/neutralino-react"
   }
 }
