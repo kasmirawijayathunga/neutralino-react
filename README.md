@@ -9,3 +9,9 @@ To get started with Neutralino React, follow these steps:
 ### Prerequisites
 
 Make sure you have Node.js and npm (Node Package Manager) installed on your system.
+
+### Installation
+
+npm install
+
+### Develpment
