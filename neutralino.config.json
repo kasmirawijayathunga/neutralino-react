@@ -24,9 +24,9 @@
     "binaryName": "neutralinojs",
     "resourcesPath": "/build/",
     "extensionsPath": "/extensions/",
-    "clientLibrary": "/build/neutralino.js",
-    "binaryVersion": "4.6.0",
-    "clientVersion": "3.5.0",
+    "clientLibrary": "/public/__neutralino_globals.js",
+    "binaryVersion": "4.14.1",
+    "clientVersion": "3.12.0",
     "frontendLibrary": {
       "patchFile": "/public/index.html",
       "devUrl": "http://localhost:3000"
