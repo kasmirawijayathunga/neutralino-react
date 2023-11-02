@@ -15,7 +15,7 @@ Ensure that you have Node.js and npm (Node Package Manager) installed on your sy
 You can create a new Neutralino React application using the following command:
 
 ```
-npx create-react-neutralino-app <APP_NAME>
+npx create-neureact-app <APP_NAME>
 ```
 
 ### Development
