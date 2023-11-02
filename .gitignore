@@ -40,3 +40,4 @@ yarn-error.log*
 .tmp
 package-lock.json
 .gitignore
+yarn.lock
