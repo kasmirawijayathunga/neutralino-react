@@ -1,0 +1,55 @@
+{
+  "name": "create-neureact-app",
+  "version": "1.1.1",
+  "description": "Neutralinojs app with reactjs",
+  "bin": "./bin/cli.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"cross-env BROWSER=none npm run dev-react\" \"npm run dev-neu\"",
+    "dev-react": "react-scripts start",
+    "dev-neu": "wait-on http://localhost:3000 && neu run --frontend-lib-dev -- --window-enable-inspector",
+    "prestart": "react-scripts build",
+    "start": "neu run",
+    "prebuild": "react-scripts build",
+    "build": "neu build"
+  },
+  "author": "Kasmira Wijayathunga <mahidhawijayathunga@gmail.com> (https://wijayathunga.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "cross-env": "^7.0.3",
+    "wait-on": "^7.0.1"
+  },
+  "dependencies": {
+    "@neutralinojs/lib": "^3.8.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasmirawijayathunga/neutralino-react"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "applicationId": "create-react-neutralino-app",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/build/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "neutralinojs app with reactjs",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "icon": "/public/logo192.png",
+      "borderless": false
+    }
+  },
+  "cli": {
+    "binaryName": "neutralinojs",
+    "resourcesPath": "/build/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "4.14.1",
+    "clientVersion": "3.12.0",
+    "frontendLibrary": {
+      "patchFile": "/public/index.html",
+      "devUrl": "http://localhost:3000"
+    }
+  }
+}
