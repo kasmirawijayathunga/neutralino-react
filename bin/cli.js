@@ -62,12 +62,12 @@ const Initialize = async (repoName) => {
         )
     
         const packageJson = {
-            name: repoName,
-            version: "0.1.0",
+            "name": repoName,
+            "version": "0.1.0",
             "description": "Neutralinojs app with reactjs",
             "author": "",
             "license": "MIT",
-            scripts: {
+            "scripts": {
                 "dev": "concurrently --kill-others \"cross-env BROWSER=none npm run dev-react\" \"npm run dev-neu\"",
                 "dev-react": "react-scripts start",
                 "dev-neu": "wait-on http://localhost:3000 && neu run --frontend-lib-dev -- --window-enable-inspector",
@@ -76,7 +76,7 @@ const Initialize = async (repoName) => {
                 "prebuild": "react-scripts build",
                 "build": "neu build"
             },
-            dependencies: {
+            "dependencies": {
                 "@neutralinojs/lib": "^3.8.2",
                 "@testing-library/jest-dom": "^5.16.5",
                 "@testing-library/react": "^13.4.0",
@@ -86,7 +86,7 @@ const Initialize = async (repoName) => {
                 "react-scripts": "^5.0.1",
                 "web-vitals": "^2.1.4"
             },
-            devDependencies: {
+            "devDependencies": {
                 "concurrently": "^8.2.1",
                 "cross-env": "^7.0.3",
                 "wait-on": "^7.0.1"
