@@ -77,14 +77,14 @@ const Initialize = async (repoName) => {
                 "build": "neu build"
             },
             dependencies: {
-                "@neutralinojs/lib": "^3.8.2",
-                "@testing-library/jest-dom": "^5.16.5",
-                "@testing-library/react": "^13.4.0",
-                "@testing-library/user-event": "^13.5.0",
-                "react": "^18.2.0",
-                "react-dom": "^18.2.0",
+                "@neutralinojs/lib": "^5.2.0",
+                "@testing-library/jest-dom": "^6.4.6",
+                "@testing-library/react": "^16.0.0",
+                "@testing-library/user-event": "^14.5.2",
+                "react": "^18.3.1",
+                "react-dom": "^18.3.1",
                 "react-scripts": "^5.0.1",
-                "web-vitals": "^2.1.4"
+                "web-vitals": "^4.2.0"
             },
             devDependencies: {
                 "concurrently": "^8.2.1",
